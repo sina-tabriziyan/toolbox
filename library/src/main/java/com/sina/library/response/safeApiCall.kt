@@ -11,7 +11,7 @@ import io.ktor.utils.io.errors.IOException
 import kotlinx.serialization.SerializationException
 
 suspend inline fun <reified T> safeApiCall(
-    crossinline apiCall: suspend () -> HttpResponse,
+    noinline apiCall: suspend () -> HttpResponse,
     successCodes: List<HttpStatusCode> = listOf(HttpStatusCode.OK, HttpStatusCode.Found)
 ): Result<ApiSuccess<T>, DataError.Network> {
     return try {

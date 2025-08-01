@@ -10,7 +10,7 @@ import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
 @SuppressLint("MissingPermission")
-class NetworkUtils(private val context: Context) {
+class ConnectivityTools(private val context: Context) {
 
     private val connectivityManager: ConnectivityManager by lazy {
         context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Network Errors -->
+    <string name="error_network_request_timeout">Request timed out. Check your connection and try again.</string>
+    <string name="error_network_too_many_requests">Too many requests. Please wait before retrying.</string>
+    <string name="error_network_no_internet">No internet connection. Check your network settings.</string>
+    <string name="error_network_server_error">Server error. Please try again later.</string>
+    <string name="error_network_unauthorized">Authentication failed. Please log in again.</string>
+    <string name="error_network_forbidden">Access denied. You don\'t have permission.</string>
+    <string name="error_network_not_found">Resource not found. It may have been moved.</string>
+    <string name="error_network_bad_request">Invalid request. Please check your input.</string>
+    <string name="error_network_unknown_host">Server unavailable. Check the URL or try later.</string>
+    <string name="error_network_ssl_handshake">Secure connection failed. Check your date/time settings.</string>
+    <string name="error_network_io">Network error. Please retry.</string>
+    <string name="error_network_unknown">Unknown network error occurred.</string>
+
+    <!-- Local Storage Errors -->
+    <string name="error_local_disk_full">Storage full. Free up space to continue.</string>
+    <string name="error_local_file_not_found">File not found. It may have been deleted.</string>
+    <string name="error_local_io">Storage error. Unable to read/write data.</string>
+    <string name="error_local_security">Permission denied. Allow storage access in settings.</string>
+    <string name="error_local_database">Database error. Restart the app.</string>
+    <string name="error_local_serialization">Data format error. Contact support.</string>
+    <string name="error_local_deserialization">Data corrupted. Try syncing again.</string>
+    <string name="error_local_out_of_memory">Low memory. Close other apps and retry.</string>
+    <string name="error_local_storage_unavailable">Storage unavailable. Check your device.</string>
+
+    <!-- Device Errors -->
+    <string name="error_device_low_battery">Low battery. Plug in to continue.</string>
+    <string name="error_device_overheated">Device overheated. Cool down before retrying.</string>
+    <string name="error_device_hardware">Hardware failure. Restart your device.</string>
+    <string name="error_device_camera">Camera error. Check permissions or restart.</string>
+    <string name="error_device_sensor">Sensor unavailable. Try again later.</string>
+    <string name="error_device_gps_unavailable">GPS unavailable. Enable location services.</string>
+
+    <!-- Permission Errors -->
+    <string name="error_permission_denied">Permission denied. Allow access in settings.</string>
+    <string name="error_permission_permanently_denied">Permission blocked. Enable it manually in settings.</string>
+    <string name="error_permission_restricted">Permission restricted by policy.</string>
+
+    <!-- Auth Errors -->
+    <string name="error_auth_invalid_credentials">Invalid email/password. Try again.</string>
+    <string name="error_auth_session_expired">Session expired. Log in again.</string>
+    <string name="error_auth_biometric">Biometric error. Use another method.</string>
+    <string name="error_auth_account_locked">Account locked. Reset password.</string>
+    <string name="error_auth_token_invalid">Session invalid. Reauthenticate.</string>
+
+    <!-- UI/Render Errors -->
+    <string name="error_render_view_not_attached">UI error. Restart the screen.</string>
+    <string name="error_render_invalid_state">Invalid UI state. Refresh the page.</string>
+    <string name="error_render_layout_inflation">UI loading failed. Restart the app.</string>
+
+    <!-- General Errors -->
+    <string name="error_general_unknown">Something went wrong. Try again.</string>
+    <string name="error_general_not_implemented">Feature not available yet.</string>
+    <string name="error_general_illegal_state">App state corrupted. Restart.</string>
+    <string name="error_general_invalid_argument">Invalid input. Check your data.</string>
+    <string name="error_general_concurrent_modification">Sync conflict. Refresh data.</string>
+</resources>

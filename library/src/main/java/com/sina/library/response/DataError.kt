@@ -14,7 +14,12 @@ sealed interface DataError : Error {
         UNKNOWN_HOST,   // When DNS resolution fails
         SSL_HANDSHAKE,  // When SSL handshake fails
         NETWORK_IO,    // General network I/O error
-        UNKNOWN_NETWORK_ERROR // Catch-all for other network issues
+        UNKNOWN_NETWORK_ERROR, // Catch-all for other network issues
+
+        SERIALIZATION,
+        PAYLOAD_TOO_LARGE,
+
+        NetworkConnectTimeoutError
     }
 
     // Local storage errors
@@ -72,4 +77,3 @@ sealed interface DataError : Error {
         CONCURRENT_MODIFICATION
     }
 }
-
